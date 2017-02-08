@@ -198,6 +198,7 @@ GEM
       cells (>= 4.1)
     childprocess (0.5.9)
       ffi (~> 1.0, >= 1.0.11)
+    choice (0.2.0)
     climate_control (0.0.3)
       activesupport (>= 3.0)
     cocaine (0.5.8)
@@ -426,6 +427,11 @@ GEM
     rails-dom-testing (2.0.2)
       activesupport (>= 4.2.0, < 6.0)
       nokogiri (~> 1.6)
+    rails-erd (1.5.0)
+      activerecord (>= 3.2)
+      activesupport (>= 3.2)
+      choice (~> 0.2.0)
+      ruby-graphviz (~> 1.2)
     rails-html-sanitizer (1.0.3)
       loofah (~> 2.0)
     rails_12factor (0.0.3)
@@ -501,6 +507,7 @@ GEM
       activesupport (>= 3.0.0)
       i18n
       iso8601
+    ruby-graphviz (1.2.2)
     ruby-progressbar (1.8.1)
     rubytree (0.9.7)
       json (~> 1.8)
@@ -670,6 +677,7 @@ DEPENDENCIES
   rails (~> 5.0.1)
   rails-angular-xss!
   rails-controller-testing!
+  rails-erd
   rails_12factor
   rails_autolink (~> 1.1.6)
   rdoc (>= 2.4.2)

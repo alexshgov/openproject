@@ -210,6 +210,9 @@ group :ldap do
 end
 
 group :development do
+  # Generates ERD diagrams from current DB schema
+  gem 'rails-erd'
+
   gem 'letter_opener'
   gem 'faker'
   gem 'livingstyleguide', '~> 2.0.1'
